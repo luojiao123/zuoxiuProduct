@@ -1,0 +1,728 @@
+@charset "utf-8";
+/* CSS Document */
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+
+/* man 男士中间内容 */
+.content_2{  
+	width:1233px;
+	margin:0 auto;
+}
+.top,.main,.footer{
+	min-width:1200px;
+}
+
+/* top */
+.top{
+	width:100%;
+	min-width:1200px;
+	height:93px;
+	background-color:#333;
+	margin-bottom: 22px;
+}
+.top_left,.top_middle,.top_right{
+	float:left;
+}
+.color{
+	color:#d88416;
+}
+.top_left{  
+	width:280px;
+}
+.top_left ul{
+	margin-left:-10px;
+}
+.top_left ul li{
+	float: left;
+    padding: 12px 10px;
+}
+.top_left ul li a{
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#fff;
+
+}
+.top_left ul li i{
+	display:block;
+	width:23px;
+	height:20px;
+	float:left;
+	background:url(../images/cart.png) no-repeat;
+}
+.top_middle{
+	width:640px;
+	height:93px; 
+}
+.top_middle img{
+	width:220px;
+	height:51px;
+	text-align:center;    
+	padding-left: 200px;
+}
+
+.nav ul li{
+	width:80px;
+	height:38px;
+	line-height:38px;
+	float:left;
+	text-align:center;
+}
+.nav ul li a{
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#fff;
+	display:block; 
+}
+.nav ul li a:hover{
+	color:#727071;
+	border-bottom:2px solid #727071;
+}
+.nav ul li .hover{
+	color:#727071;
+	border-bottom:2px solid #727071;
+}
+.top_right{ 
+	width:280px;
+}
+.top_right input{
+	width:261px;
+	height:26px;
+	line-height:26px;
+	font-size:12px;
+	border:1px solid #787878;
+	color:#787878;
+	text-indent:1em;
+	background:url(../images/search.png) no-repeat right;
+	margin-top: 10px;
+    float: right;
+}
+
+/* main banner */
+.banner{
+	width:1200px;
+	height:610px;
+}
+.banner img{
+	width:1200px;
+	height:610px;
+}
+
+/* main main1 */
+.main1{
+	width:100%;
+	height:122px; 
+}
+.main1_con {
+	width:25%;
+	height:62px;   
+	float:left;
+	padding: 30px 0;
+}
+.main1_con .left{
+	font-size: 12px;
+    line-height: 18px;
+    padding-top: 20px;
+    padding-left: 10px;
+ }
+ .left h4{
+	 font-weight:bold;
+	 color:#000;
+}
+.left p{
+	color:#9b9b9b;
+}
+
+/* main main2 */
+.title{
+	width:300px;
+	height:93px;
+	line-height:93px;
+	margin:0 auto;
+}
+.title p{ 
+	font-size:18px;
+	margin:0 18px;
+}
+.xian{
+	height:1px;
+	width:71px;
+	margin-top:46px;
+	background-color:#b4b4b4;
+}
+
+/* 尖货推荐 */
+.recommend{
+	width:100%;
+	height:auto;
+}
+.img{
+	width:400px;
+	height:300px;
+	background-color:#069;
+	float:left;
+}
+.img img{
+	width:400px;
+	height:300px;
+}
+.more{
+	width:100%;
+	height:115px;
+}
+.more_btn{
+	width:158px;
+	height:35px;
+	margin:0 auto;
+	padding-top: 40px;
+}
+.more_btn input{
+	width:158px;
+	height:35px;
+	font-size:12px;
+	border:1px solid #d6d6d6;
+	color:#4f4f4f;
+	border-radius:15px;
+	background-color:#fff;
+}
+.zouxiu{
+	height:400px;
+}
+.zouxiu img{
+	height:400px;
+}
+/* 发现好货 */
+.discover {
+    margin-left: -17px;
+}
+.discover_1{
+	width:285px;
+	height:488px;
+	border:1px solid #efefef;
+	float:left;
+	padding-left:17px;
+	padding-bottom:20px;
+}
+/* personal 个人中心 */
+#ft_personal {
+	height: 189px;
+}
+
+
+/* footer */
+.footer{
+	width:100%;
+	height:374px;
+	border-top:3px solid #9a9a9a;
+}
+.footer_up{
+	height:180px;
+	background-color:#ebebeb;
+}
+.footer_up ul{
+	width:200px;
+	float:left;
+
+}
+.footer_up ul h2{	
+	font-size:18px;
+	color:#252525;  
+	padding-bottom: 5px;
+}
+.ft_detail {
+    padding-top: 30px;
+}
+ 
+.phone a{  
+	display: block;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+	font-weight:bold;
+    text-indent: 2em;
+	color:#363636;
+}
+.phone span{
+	color:#7e7e7e;
+	font-size:12px;
+}
+.icon1{
+	background:url(../images/weixin.png) no-repeat;
+}
+.icon2{
+	background:url(../images/phone.png) no-repeat;
+}
+.icon3{
+	background:url(../images/tucao.png) no-repeat;
+}  
+.list a{ 
+	color:#252525;
+	line-height:20px;
+}
+
+/* footer_down */
+.ft_nav1{
+	width:814px;
+	height:22px;
+	margin:15px auto;
+	}
+.ft_nav{
+	width:814px;
+	height:22px; 
+}
+.ft_nav ul li{
+	width:63px;
+	float:left;
+	padding-left:10px;
+	border-left:1px solid #333;
+}
+.ft_nav ul li:first-child{
+	border:0;
+}
+.ft_nav ul li a{
+	color:#333;
+}
+.icon4{
+	background:url(../images/air.png) no-repeat;
+}
+.icon5{
+	background:url(../images/baozhang.png) no-repeat;
+}
+.icon6{
+	background:url(../images/hezuo.png) no-repeat;
+}
+.ft_help,.ft_bottom{
+	width:700px;
+	margin:0 auto;
+	padding-top: 10px;
+}
+.ft_help a{  
+	display: block;
+    width: 200px;
+    height: 45px;
+	line-height:45px;
+    font-size: 18px;
+	font-weight:bold;
+    text-indent: 3em;
+	color:#000;
+}
+.ft_help ul li{
+	float:left;
+}
+.ft_bottom{
+	color:#9c9c9c;
+	font-size:12px;
+}
+.ft_bottom p,.ft_bottom span{
+	padding:10px;
+}
+.ft_bottom p{
+	margin-left:-35px;
+	padding-right:30px;
+} 
+.ft_bottom ul{
+	margin-left:30px;
+}
+.ft_bottom ul li{
+	float:left;
+	padding:10px;
+}
+
+/* 新品 把浏览器的窗口缩小时，拖动滚动条时你会发现原本设定的CSS背景100%平铺的背景少了一块，而且窗口越小时，空白越大。在对应块设置min-width即可，例如下面的.pic,.new_product都有出现这个问题 */
+
+.pic{
+	width:100%; 
+	min-width:1200px;
+	width:expression(document.body.clientWidth <= 1200? "1200px": "auto"); /* 增加此行代码可实现不同分辨率下灵活覆盖 */
+	height:610px;
+}
+.pic img{
+	width:100%;
+	height:610px;
+}
+.new_product{
+	background-color:#020202;
+	min-width:1200px;
+}
+.new_title{
+	padding-top:10px;
+}
+.new_img{
+	width:100%;
+	height:61px;
+	border-bottom:1px solid #2c2c2c;
+	border-right:1px solid #2c2c2c;
+}
+.new_img img{
+	width:348px;
+	height:61px;
+}
+.new_title span{
+	display:block;
+	width:132px;
+	height:36px;
+	line-height:36px;
+	font-size:22px;
+	background-color:#2c2c2c;
+	color:#fff;
+	text-align:center; 
+	margin: 9px 5px 5px -1px;
+}
+.new_xian{
+	width:1064px;
+	height:1px;
+	border-top:1px dotted #3c3c3c;    
+	margin-top: -22px;
+}
+.new_cont{
+	width:100%;
+	height:auto;
+	background-color:#171717;
+	padding-top: 5px;
+    padding-bottom: 10px;
+}
+.newCont_img{
+	width:388px;
+	height:481px;
+	float:left;
+	padding:10px 0;
+}
+.newCont_img img{
+	width:388px;
+	height:481px; 
+}
+.newCont_img:nth-child(3n-1){
+	padding:10px 18px;
+}
+
+
+/* 男士 */
+.man{
+	width:100%; 
+	min-width:1233px;
+	width:expression(document.body.clientWidth <= 1233? "1233px": "auto"); /* 增加此行代码可实现不同分辨率下灵活覆盖 */
+	background:#d7d5d8 url(../images/body_bg2.jpg) center top no-repeat fixed;	/*   url(http://images.xiu.com/edm/hd_jxMan_160918/body_bg2.jpg) */
+}
+.woman{
+	background:#f4e8d8 url(http://images.xiu.com/edm/hd_jxWoman_160918/body_bg2.jpg) center top no-repeat fixed;
+}
+.man_nav{
+	width:125px;
+	height:263px;
+	position:fixed;
+    left: 50%;
+	margin-left:651px;
+    top: 468px;
+	/* left: 50%; margin-left:665px; top: 468px; 固定div位置 无论放大缩小 */
+}
+.man_nav ul li{
+	margin-bottom:15px;
+}
+.man_nav ul li a{
+	display:block;
+	width:99px;
+	height:38px;
+	line-height:38px; 
+	font-size:18px;
+	color:#292d40;
+	font-weight:bold;
+	padding-left: 14px;
+	border:1px solid #292d40;
+}
+.woman_nav ul li a{
+	border:1px solid #997c52;
+}
+.man_nav ul li a:hover{
+	background-color:#292d40;
+	color:#fff;
+}
+.woman_nav ul li a:hover{
+	background-color:#997c52;
+}
+.icon{
+	display:block;
+	width:44px;
+	height:30px;
+	background:url(../images/icon.png) no-repeat;
+	float:left;
+	margin-top:3px;
+}
+.man_nav span{
+	float:left;
+}
+.man_fz i{
+	background-position: -53px -5px;/* 背景background-position有两个数值，前一个代表靠左距离值（可为正可为负），第二个数值代表靠上距离值（可为正可为负） */
+}
+.man_bd i{
+	background-position: -53px -40px;/* 背景background-position有两个数值，前一个代表靠左距离值（可为正可为负），第二个数值代表靠上距离值（可为正可为负） */
+}
+.man_xx i{
+	background-position: -53px -80px;/* 背景background-position有两个数值，前一个代表靠左距离值（可为正可为负），第二个数值代表靠上距离值（可为正可为负） */
+}
+
+.man_ps i{
+	background-position: -54px -112px;/* 背景background-position有两个数值，前一个代表靠左距离值（可为正可为负），第二个数值代表靠上距离值（可为正可为负） */
+}
+.man_wb i{
+	background-position: -53px -150px;/* 背景background-position有两个数值，前一个代表靠左距离值（可为正可为负），第二个数值代表靠上距离值（可为正可为负） */
+}
+
+.man_cont{
+	width:100%;
+	height:auto;
+	background-color: rgba(110,112,125,0.7);/* 透明度设置 IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+	padding:15px 9px 9px 8px;/
+}
+.woman_cont{
+	background-color: rgba(189,167,135,0.7);/* 透明度设置 IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+}
+.manCont_img{
+	width:393px;
+	height:500px;
+	float:left;
+	padding:9px;
+}
+.manCont_img img{
+	width:393px;
+	height:500px; 
+}
+
+/* brand 品牌 */
+
+/* 向右三角形 */
+.brand_trg{
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+.Triangle{
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #f7941c;
+    border-bottom: 4px solid transparent;
+	margin: 2px 6px;
+}
+.brand_nav p{
+	color:#5b5b5b;
+}
+.brand_tab{
+	width:100%;
+	height:36px;
+	border-bottom:2px solid #ea7514;
+	margin-bottom:15px;
+}
+.brand_tab ul li{
+	float:left;
+	width:100px;
+	height:36px;
+	line-height:36px;
+	background-color:#eceaef;
+	text-align:center;
+	margin-right:1px;
+}
+.brand_tab ul li:hover{
+	background-color:#ea7514;
+	color:#fff;
+}
+.brand_tab .hover{
+	background-color:#ea7514;
+	color:#fff;
+}
+.brand_search{
+	height:20px;
+	margin-left:15px;    
+	margin-bottom: 22px;
+}
+.brand_search p{
+	color:#717171;
+	padding-top:4px;
+}
+.brand_search a{
+	display:block;
+	width:28px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	float:left;
+	color:#727272;
+}
+.brand_search a:hover{
+	color:#fff;
+	background-color:#ec832b;
+}
+.brand_search .hover{
+	color:#fff;
+	background-color:#ec832b;
+}
+.brand_cont{
+	width:100%;
+	height:auto;
+	margin-bottom:30px;
+}
+.brand_cont dl
+{
+	padding-top: 30px;
+}
+.brand_cont dl dt{
+	width:41px;
+	height:41px;
+	line-height:41px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#d8d8d8;
+	border-radius:20px;
+	text-align:center;
+	margin-right:37px;
+	float:left;
+}
+.brand_cont dl dt:hover{
+	background-color:#ec822a;
+}
+.brand_cont dl .hover{
+	background-color:#ec822a;
+}
+
+.brand_cont dl dd{
+	width:20%;
+	float:left;
+	border-bottom:1px solid #e1e1e1;
+	padding-bottom:20px;
+	margin-right: 125px;
+}
+.brand_cont dl dd a{
+	display:block;
+	line-height:26px;
+	font-size:12px;
+	color:#5b5b5b;
+}
+
+
+/* discover 发现 */
+/* main banner */
+.discover_banner{
+	width:1200px;
+	height:450px;
+}
+.discover_banner img{
+	width:100%;
+	height:450px;
+}
+.discover_main1{
+	width:100%;
+	height:auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.discoverMain1_con{
+	width:20%;
+	height:220px;
+	float:left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover_cont,.special_cont{
+	width:100%;
+	height:auto;
+}
+.discoverCont_img{
+	width:380px;
+	height:auto;
+	float:left;
+	padding:15px 0;
+}
+.discoverCont_img img{
+	width:380px;
+	height:auto; 
+}
+.discoverCont_img:nth-child(3n-1){
+	padding:15px 30px;
+}
+.discover_title{
+	width:100%;
+	height:93px;
+	margin:0 auto;
+}
+.discover_title p{ 
+	width:130px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#333;
+	margin-top:30px;
+	text-align:center;
+}
+.discover_xian{
+	height:1px;
+	width:535px;
+	margin-top:46px;
+	background-color:#333;
+}
+
+/* special 专题 */
+.specialCont_img{
+	width:590px;
+	height:300px;
+	float:left;
+	padding-bottom:20px;
+}
+.specialCont_img:nth-child(even){
+	padding-left:20px;
+}
+.specialCont_img img{
+	width:590px;
+	height:300px;
+}
+
+.special_title{
+	width:100%;
+	height:70px;
+	margin:0 auto;
+}
+.special_title p{ 
+	width:130px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#333;
+	text-align:center;
+}
+.special_xian{
+	height:1px;
+	width:535px;
+	margin-top:16px;
+	background-color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

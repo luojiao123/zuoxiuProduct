@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>chec</title>
+
+    <style>
+        #wrapper {margin: 20px auto;}
+        #wrapper .input_check {width: 16px;height: 16px;visibility: hidden;}
+        #wrapper .input_check+label {display: inline-block;width: 16px;height: 16px;background: url(images/checkbox.png) no-repeat;}
+        #wrapper .input_check:checked+label {background-position: -18px 0px;}
+
+    </style>
+    <script>
+//        function heizi() {
+//            // 获取网页链接
+//            var url=document.location.href;
+//            var a =url.split("/");
+//            var len=a.length;
+//            console.log(a[len-2]+"---------"+len);
+//        }
+//        heizi();
+        var num=123;
+        var num2=1.23;
+        var num3=-13;
+        var num4=13.23e34;
+        var num5=NaN;
+        var num6="4"+"22d";
+        var num7=4+"22d";
+        var num8=2/num7;
+        var num9=2/0;
+        var num10=0/0;
+        var num11=2/"8";
+        console.log(typeof num+"----------"+num);
+        console.log(typeof num2+"----------"+num2);
+        console.log(typeof num3+"----------"+num3);
+        console.log(typeof num4+"----------"+num4);
+        console.log(typeof num5+"----------"+num5);
+        console.log(typeof num6+"----------"+num6);
+        console.log(typeof num7+"----------"+num7);
+        console.log(typeof num8+"----------"+num8);
+        console.log(typeof num9+"----------"+num9);
+        console.log(typeof num10+"----------"+num10);
+        console.log(typeof num11+"----------"+num11);
+
+        var a=[1,2];
+        var as=new Array(4,5,6);
+    </script>
+</head>
+<body>
+<h3>利用background用图片代替checkbox效果</h3>
+<div id="wrapper">
+    <span><input type="checkbox"class="input_check" id="check1"><label for="check1"></label></span>
+    <span><input type="checkbox"class="input_check" id="check2"><label for="check2"></label></span>
+    <pre>
+        var num=123;
+        var num2=1.23;
+        var num3=-13;
+        var num4=13.23e34;
+        var num5=NaN;
+        var num6="4"+"22d";
+        var num7=4+"22d";
+        var num8=2/num7;
+        var num9=2/0;
+        var num10=0/0;
+        var num11=2/"8";
+    </pre>
+</div>
+</body>
+</html>
